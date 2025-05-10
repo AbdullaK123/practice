@@ -6,7 +6,7 @@ export default function Header() {
             <h1>Random Quote Generator</h1>
             <div className='flex flex-row gap-10 justify-between'>
                 <Link className='text-white font-bold hover:scale-110 transition-all duration-150 active:scale-95' href="/">Home</Link>
-                <Link className='text-white font-bold hover:scale-110 transition-all duration-150 active:scale-95' href="/favorite-quotes">Favorite Quotes</Link>
+                <Link className='text-white font-bold hover:scale-110 transition-all duration-150 active:scale-95' href="/favorite_quotes">Favorite Quotes</Link>
             </div>
        </nav>
     )

@@ -37,6 +37,10 @@ export function useQuote() {
           });
         } catch (error) {
           console.error("Error fetching quote:", error);
+          setQuote({
+            author: "Error",
+            quote: "Something went wrong. The server might be down."
+          })
         }
       };
     

@@ -16,7 +16,7 @@ export default function QuoteDisplay() {
                 {isLoading? <LoadingSpinner /> : <Quote quote={quote}/> }
             </div>
             <button 
-                className="bg-black hover:scale-110 transition-all duration-150 active:bg-gray-700 active:scale-95 hover:bg-gray-600 text-white font-bold p-4 m-2 rounded-lg shadow-xl" 
+                className="bg-black cursor-pointer hover:scale-110 transition-all duration-150 active:bg-gray-700 active:scale-95 hover:bg-gray-600 text-white font-bold p-4 m-2 rounded-lg shadow-xl" 
                 onClick={fetchQuote} 
                 type="button"
             >
